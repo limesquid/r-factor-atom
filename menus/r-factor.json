@@ -75,6 +75,10 @@
             "command": "r-factor:move-prop-types-to-class"
           },
           {
+            "label": "R-Factor: Enter license key",
+            "command": "r-factor:enter-license-key"
+          },
+          {
             "label": "R-Factor: Sort attributes in objects",
             "command": "r-factor:sort-attributes"
           },
@@ -171,6 +175,10 @@
             {
               "label": "Move propTypes to class",
               "command": "r-factor:move-prop-types-to-class"
+            },
+            {
+              "label": "Enter license key",
+              "command": "r-factor:enter-license-key"
             },
             {
               "label": "Sort attributes in objects",
