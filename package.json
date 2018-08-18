@@ -1,51 +1,33 @@
 {
-  "name": "R-Factor",
-  "main": "./lib/r-factor",
+  "name": "r-factor",
   "version": "0.0.1",
-  "description": "A short description of your package",
-  "publisher": "r-factor",
-  "keywords": [
-    "react",
-    "redux",
-    "r-factor",
-    "refactoring",
-    "convert",
-    "transform"
-  ],
-  "activationCommands": {
-  },
-  "repository": "https://github.com/atom/r-factor",
+  "main": "./lib/main",
+  "description": "Rme.",
   "license": "LICENSE",
-  "engines": {
-    "node": ">=6.0.0",
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  },
   "configSchema": {
     "component-name-collision-pattern": {
+        "title": "Component name collision pattern",
         "type": "string",
-        "default": "${name}Component",
-        "description": "Component name collision pattern"
+        "default": "${name}Component"
     },
     "component-superclass": {
+        "title": "Component superclass",
         "type": "string",
         "default": "Component",
         "enum": [
           "Component",
           "PureComponent"
-        ],
-        "description": "Component superclass"
+        ]
     },
     "default-component-name": {
+        "title": "Default component name",
         "type": "string",
-        "default": "Component",
-        "description": "Default component name"
+        "default": "Component"
     },
     "default-hoc-component-name": {
+        "title": "Default HOC component name",
         "type": "string",
-        "default": "InnerComponent",
-        "description": "Default HOC component name"
+        "default": "InnerComponent"
     },
     "end-of-line": {
         "type": "string",
@@ -53,35 +35,36 @@
         "description": "End of line characters"
     },
     "functional-component-type": {
+        "title": "Functional component type",
         "type": "string",
         "default": "arrow",
         "enum": [
           "arrow",
           "function"
-        ],
-        "description": "Functional component type"
+        ]
     },
     "indent": {
+        "title": "Indent",
         "type": [ "string", "number" ],
-        "default": 2,
-        "description": "Indent"
+        "default": 2
     },
     "map-dispatch-to-props-name": {
+        "title": "Custom mapDispatchToProps name",
         "type": "string",
-        "default": "mapDispatchToProps",
-        "description": "mapDispatchToProps name"
+        "default": "mapDispatchToProps"
     },
     "map-state-to-props-name": {
+        "title": "Custom mapStateToProps name",
         "type": "string",
-        "default": "mapStateToProps",
-        "description": "mapStateToProps name"
+        "default": "mapStateToProps"
     },
     "merge-props-name": {
+        "title": "Custom mergeProps name",
         "type": "string",
-        "default": "mergeProps",
-        "description": "mergeProps name"
+        "default": "mergeProps"
     },
     "modules-order": {
+        "title": "Modules order",
         "type": [ "string", "array" ],
         "default": [
             "react",
@@ -101,38 +84,43 @@
             "react-router",
             "react-router-dom",
             "react-hot-loader"
-        ],
-        "description": "Modules order"
+        ]
     },
     "quotes": {
+        "title": "Quotes",
         "type": "string",
         "default": "single",
         "enum": [
           "backtick",
           "single",
           "double"
-        ],
-        "description": "Quotes"
+        ]
     },
     "semicolons": {
+        "title": "Semicolons",
         "type": "bool",
-        "default": true,
-        "description": "Semicolons"
+        "default": true
     },
     "trailing-commas": {
+        "title": "Trailing commas",
         "type": "bool",
-        "default": false,
-        "description": "Trailing commas"
+        "default": false
     },
     "use-map-dispatch-to-props-shorthand": {
+        "title": "Prefer object version of mapDispatchToProps",
         "type": "bool",
-        "default": false,
-        "description": "Prefer object version of mapDispatchToProps"
+        "default": false
     },
     "NODE_BIN": {
+        "title": "NODE_BIN",
         "type": "string",
         "default": "node",
         "description": "Node.js binary path"
     }
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
   }
 }
