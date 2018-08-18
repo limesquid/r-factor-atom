@@ -5,7 +5,6 @@
   "publisher": "r-factor",
   "description": "React & Redux Refactoring Tools",
   "license": "LICENSE",
-  "icon": "images/r-factor.png",
   "configSchema": {
     "component-name-collision-pattern": {
         "title": "Component name collision pattern",
