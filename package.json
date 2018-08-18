@@ -2,8 +2,10 @@
   "name": "r-factor",
   "version": "0.0.1",
   "main": "./lib/main",
-  "description": "Rme.",
+  "publisher": "r-factor",
+  "description": "React & Redux Refactoring Tools",
   "license": "LICENSE",
+  "icon": "images/r-factor.png",
   "configSchema": {
     "component-name-collision-pattern": {
         "title": "Component name collision pattern",
@@ -30,9 +32,9 @@
         "default": "InnerComponent"
     },
     "end-of-line": {
+        "title": "End of line characters",
         "type": "string",
-        "default": "\n",
-        "description": "End of line characters"
+        "default": "\n"
     },
     "functional-component-type": {
         "title": "Functional component type",
