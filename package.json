@@ -99,17 +99,27 @@
     },
     "semicolons": {
         "title": "Semicolons",
-        "type": "bool",
+        "type": "boolean",
         "default": true
+    },
+    "svg-component-type": {
+      "title": "SVG component type",
+      "type": "string",
+      "default": "arrow",
+      "enum": [
+        "arrow",
+        "function",
+        "class"
+      ]
     },
     "trailing-commas": {
         "title": "Trailing commas",
-        "type": "bool",
+        "type": "boolean",
         "default": false
     },
     "use-map-dispatch-to-props-shorthand": {
         "title": "Prefer object version of mapDispatchToProps",
-        "type": "bool",
+        "type": "boolean",
         "default": false
     },
     "NODE_BIN": {
