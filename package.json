@@ -1,6 +1,6 @@
 {
     "name": "r-factor",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "main": "./lib/main",
     "publisher": "r-factor",
     "description": "React & Redux Refactoring Tools",
