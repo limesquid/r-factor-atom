@@ -1,141 +1,141 @@
 {
-    "name": "r-factor",
-    "version": "1.0.0",
-    "main": "./lib/main",
-    "publisher": "r-factor",
-    "description": "React & Redux Refactoring Tools",
-    "license": "LICENSE",
-    "configSchema": {
-        "component-name-collision-pattern": {
-            "title": "Component name collision pattern",
-            "type": "string",
-            "default": "${name}Component"
-        },
-        "component-superclass": {
-            "title": "Component superclass",
-            "type": "string",
-            "default": "Component",
-            "enum": [
-                "Component",
-                "PureComponent"
-            ]
-        },
-        "default-component-name": {
-            "title": "Default component name",
-            "type": "string",
-            "default": "Component"
-        },
-        "default-hoc-component-name": {
-            "title": "Default HOC component name",
-            "type": "string",
-            "default": "InnerComponent"
-        },
-        "end-of-line": {
-            "title": "End of line characters",
-            "type": "string",
-            "default": "\n",
-            "enum": [
-                "\n",
-                "\r\n"
-            ]
-        },
-        "functional-component-type": {
-            "title": "Functional component type",
-            "type": "string",
-            "default": "arrow",
-            "enum": [
-                "arrow",
-                "function"
-            ]
-        },
-        "indent": {
-            "title": "Indent",
-            "type": [
-                "string",
-                "number"
-            ],
-            "default": 2
-        },
-        "map-dispatch-to-props-name": {
-            "title": "Custom mapDispatchToProps name",
-            "type": "string",
-            "default": "mapDispatchToProps"
-        },
-        "map-state-to-props-name": {
-            "title": "Custom mapStateToProps name",
-            "type": "string",
-            "default": "mapStateToProps"
-        },
-        "merge-props-name": {
-            "title": "Custom mergeProps name",
-            "type": "string",
-            "default": "mergeProps"
-        },
-        "modules-order": {
-            "title": "Modules order",
-            "type": [
-                "string",
-                "array"
-            ],
-            "default": [
-                "react",
-                "react-dom",
-                "prop-types",
-                "classnames",
-                "lodash",
-                "lodash-es",
-                "underscore",
-                "redux-saga",
-                "redux-saga/effects",
-                "react-redux",
-                "react-router-redux",
-                "redux-actions",
-                "reselect",
-                "re-reselect",
-                "react-router",
-                "react-router-dom",
-                "react-hot-loader"
-            ]
-        },
-        "quotes": {
-            "title": "Quotes",
-            "type": "string",
-            "default": "single",
-            "enum": [
-                "backtick",
-                "single",
-                "double"
-            ]
-        },
-        "semicolons": {
-            "title": "Semicolons",
-            "type": "boolean",
-            "default": true
-        },
-        "svg-component-type": {
-            "title": "SVG component type",
-            "type": "string",
-            "default": "arrow",
-            "enum": [
-                "arrow",
-                "function",
-                "class"
-            ]
-        },
-        "trailing-commas": {
-            "title": "Trailing commas",
-            "type": "boolean",
-            "default": false
-        },
-        "use-map-dispatch-to-props-shorthand": {
-            "title": "Prefer object version of mapDispatchToProps",
-            "type": "boolean",
-            "default": false
-        }
+  "name": "r-factor",
+  "version": "1.0.0",
+  "main": "./lib/main",
+  "publisher": "r-factor",
+  "description": "React & Redux Refactoring Tools",
+  "license": "LICENSE",
+  "configSchema": {
+    "component-name-collision-pattern": {
+      "title": "Component name collision pattern",
+      "type": "string",
+      "default": "${name}Component"
     },
-    "standard": {
-        "globals": [
-            "atom"
-        ]
+    "component-superclass": {
+      "title": "Component superclass",
+      "type": "string",
+      "default": "Component",
+      "enum": [
+        "Component",
+        "PureComponent"
+      ]
+    },
+    "default-component-name": {
+      "title": "Default component name",
+      "type": "string",
+      "default": "Component"
+    },
+    "default-hoc-component-name": {
+      "title": "Default HOC component name",
+      "type": "string",
+      "default": "InnerComponent"
+    },
+    "end-of-line": {
+      "title": "End of line characters",
+      "type": "string",
+      "default": "\n",
+      "enum": [
+        "\n",
+        "\r\n"
+      ]
+    },
+    "functional-component-type": {
+      "title": "Functional component type",
+      "type": "string",
+      "default": "arrow",
+      "enum": [
+        "arrow",
+        "function"
+      ]
+    },
+    "indent": {
+      "title": "Indent",
+      "type": [
+        "string",
+        "number"
+      ],
+      "default": 2
+    },
+    "map-dispatch-to-props-name": {
+      "title": "Custom mapDispatchToProps name",
+      "type": "string",
+      "default": "mapDispatchToProps"
+    },
+    "map-state-to-props-name": {
+      "title": "Custom mapStateToProps name",
+      "type": "string",
+      "default": "mapStateToProps"
+    },
+    "merge-props-name": {
+      "title": "Custom mergeProps name",
+      "type": "string",
+      "default": "mergeProps"
+    },
+    "modules-order": {
+      "title": "Modules order",
+      "type": [
+        "string",
+        "array"
+      ],
+      "default": [
+        "react",
+        "react-dom",
+        "prop-types",
+        "classnames",
+        "lodash",
+        "lodash-es",
+        "underscore",
+        "redux-saga",
+        "redux-saga/effects",
+        "react-redux",
+        "react-router-redux",
+        "redux-actions",
+        "reselect",
+        "re-reselect",
+        "react-router",
+        "react-router-dom",
+        "react-hot-loader"
+      ]
+    },
+    "quotes": {
+      "title": "Quotes",
+      "type": "string",
+      "default": "single",
+      "enum": [
+        "backtick",
+        "single",
+        "double"
+      ]
+    },
+    "semicolons": {
+      "title": "Semicolons",
+      "type": "boolean",
+      "default": true
+    },
+    "svg-component-type": {
+      "title": "SVG component type",
+      "type": "string",
+      "default": "arrow",
+      "enum": [
+        "arrow",
+        "function",
+        "class"
+      ]
+    },
+    "trailing-commas": {
+      "title": "Trailing commas",
+      "type": "boolean",
+      "default": false
+    },
+    "use-map-dispatch-to-props-shorthand": {
+      "title": "Prefer object version of mapDispatchToProps",
+      "type": "boolean",
+      "default": false
     }
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  }
 }
