@@ -55,20 +55,20 @@
           "command": "r-factor:disconnect-merge-props"
         },
         {
+          "label": "R-Factor: Enter license key",
+          "command": "r-factor:enter-license-key"
+        },
+        {
           "label": "R-Factor: Generate propTypes",
           "command": "r-factor:generate-prop-types"
         },
         {
           "label": "R-Factor: Move defaultProps & propTypes out of class",
-          "command": "move-default-props-and-prop-types-out-of-class"
+          "command": "r-factor:move-default-props-and-prop-types-out-of-class"
         },
         {
           "label": "R-Factor: Move defaultProps & propTypes to class",
-          "command": "move-default-props-and-prop-types-to-class"
-        },
-        {
-          "label": "R-Factor: Enter license key",
-          "command": "r-factor:enter-license-key"
+          "command": "r-factor:move-default-props-and-prop-types-to-class"
         },
         {
           "label": "R-Factor: Sort attributes in objects",
