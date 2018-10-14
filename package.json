@@ -33,10 +33,10 @@
     "end-of-line": {
       "title": "End of line characters",
       "type": "string",
-      "default": "\n",
+      "default": "\\n",
       "enum": [
-        "\n",
-        "\r\n"
+        "\\n",
+        "\\r\\n"
       ]
     },
     "functional-component-type": {
