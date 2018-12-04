@@ -90,10 +90,10 @@
   "menu": [
     {
       'label': 'Packages',
-      'submenu': '
+      'submenu': [
         {
           'label': 'R-Factor',
-          'submenu': '
+          'submenu': [
             {
               'label': 'Add className',
               'command': 'r-factor:add-classname'
