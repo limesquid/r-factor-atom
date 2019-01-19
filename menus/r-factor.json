@@ -64,11 +64,11 @@
 						},
 						{
 							"label": "Move defaultProps & propTypes out of class",
-							"command": "move-default-props-and-prop-types-out-of-class"
+							"command": "r-factor:move-default-props-and-prop-types-out-of-class"
 						},
 						{
 							"label": "Move defaultProps & propTypes to class",
-							"command": "move-default-props-and-prop-types-to-class"
+							"command": "r-factor:move-default-props-and-prop-types-to-class"
 						},
 						{
 							"label": "Enter license key",
