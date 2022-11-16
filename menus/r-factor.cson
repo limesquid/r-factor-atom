@@ -53,10 +53,6 @@
       'command': 'r-factor:disconnect-merge-props'
     },
     {
-      'label': 'R-Factor: Enter license key',
-      'command': 'r-factor:enter-license-key'
-    },
-    {
       'label': 'R-Factor: Generate propTypes',
       'command': 'r-factor:generate-prop-types'
     },
@@ -156,10 +152,6 @@
           {
             'label': 'Move defaultProps & propTypes to class',
             'command': 'move-default-props-and-prop-types-to-class'
-          },
-          {
-            'label': 'Enter license key',
-            'command': 'r-factor:enter-license-key'
           },
           {
             'label': 'Sort attributes in objects',

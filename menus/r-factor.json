@@ -71,10 +71,6 @@
 							"command": "r-factor:move-default-props-and-prop-types-to-class"
 						},
 						{
-							"label": "Enter license key",
-							"command": "r-factor:enter-license-key"
-						},
-						{
 							"label": "Sort attributes in objects",
 							"command": "r-factor:sort-attributes"
 						},
