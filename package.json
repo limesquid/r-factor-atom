@@ -4,7 +4,7 @@
   "main": "./lib/main",
   "publisher": "r-factor",
   "description": "React & Redux Refactoring Tools",
-  "license": "LICENSE",
+  "license": "MIT",
   "configSchema": {
     "component-name-collision-pattern": {
       "title": "Component name collision pattern",
