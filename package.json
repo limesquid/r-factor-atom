@@ -1,10 +1,24 @@
 {
-  "name": "r-factor",
+  "name": "r-factor-atom",
   "version": "1.0.0",
-  "main": "./lib/main",
-  "publisher": "r-factor",
   "description": "React & Redux Refactoring Tools",
   "license": "MIT",
+  "publisher": "LimeSquid",
+  "main": "./lib/main",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limesquid/r-factor-atom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/limesquid/r-factor-atom/issues"
+  },
+  "homepage": "https://r-factor.org",
+  "dependencies": {
+    "r-factor": "^1.0.0"
+  },
   "configSchema": {
     "component-name-collision-pattern": {
       "title": "Component name collision pattern",
