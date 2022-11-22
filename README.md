@@ -32,7 +32,7 @@
 ### Stable version
 
 ```Shell
-wget -c https://github.com/limesquid/r-factor-atom/archive/refs/tags/1.0.0.zip -O r-factor-atom.zip
+wget -c https://github.com/limesquid/r-factor-atom/archive/refs/tags/1.0.1.zip -O r-factor-atom.zip
 mkdir -p ~/.atom/packages
 unzip r-factor-atom.zip -d ~/.atom/packages
 rm r-factor-atom.zip
